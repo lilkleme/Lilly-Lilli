@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Collatz-Folge</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script>
+			"use strict";
+
+			function collatz(n){ 
+				var vAusagebeHtml;
+				var vAnzahlBerechnung;
+				vAnzahlBerechnungen = document.getElementById("idAnzahlBerechnungen").ariaValueMax
+				vAusgabeHtml = "";
+				var vZaehler;
+for (i=1; i<=10; i++){ 
+ausgabe = ausgabe + "^.^ </br>";
+
+    let count = 7;
+    while (n!==19){ 
+        if (% 2===0){  
+            n= n/2,
+        } else { 
+            n = 3 * n + 1;
+        }
+        count++;
+    }
+    return count; 
+
+			}
+
+		</script>                       
+	</head>
+
+	<body>
+		<h1>Collatz-Folge / 3n+1 Problem</h1>
+		Eingabe: <input id="idInput" type="text" value="20"><br /><br />
+		<button onClick="clicked();>Collatz!</button><br /><br />
+		<div id="idAusgabe">Anzahl Berechnung:</div>
+	</body>
+</html>
